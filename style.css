@@ -1,0 +1,73 @@
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.tracker-card {
+  max-width: 500px;
+  margin: 40px auto;
+  box-shadow: 0 8px 32px rgba(80, 80, 180, 0.12);
+  border-radius: 20px;
+  background: #fff;
+  border: none;
+}
+.tracker-card h2 {
+  color: #4f46e5;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+#expense-form .form-label {
+  color: #6366f1;
+  font-weight: 500;
+}
+#expense-form .form-control {
+  border-radius: 8px;
+  border: 1px solid #c7d2fe;
+}
+#expense-form .btn-primary {
+  background: linear-gradient(90deg, #6366f1 0%, #818cf8 100%);
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background 0.2s;
+}
+#expense-form .btn-primary:hover {
+  background: linear-gradient(90deg, #818cf8 0%, #6366f1 100%);
+}
+.expense-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+.expense-item {
+  transition: background 0.2s;
+  border-radius: 8px;
+  margin-bottom: 2px;
+}
+.expense-item:hover {
+  background: #eef2ff;
+}
+.remove-btn {
+  color: #ef4444;
+  cursor: pointer;
+  font-size: 1.3rem;
+  margin-left: 8px;
+  transition: color 0.2s;
+}
+.remove-btn:hover {
+  color: #b91c1c;
+  text-decoration: underline;
+}
+#total-amount {
+  color: #4f46e5;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e0e7ff;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c7d2fe;
+  border-radius: 8px;
+}
